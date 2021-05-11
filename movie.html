@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="movie.css">
+</head>
+<body>
+	<header>
+		<a href="#" class="logo"><img src="logo.jpg"></a>
+		<nav role="navigation">
+ 			 <div id="menuToggle">
+				<input type="checkbox"/>
+ 					
+    				 <span></span>
+   					 <span></span>
+   					 <span></span>
+  				
+  				<ul id="menu">
+  			    <a href="home.html" target="_blank"><li>Home</li></a>
+				<a href="info.html" target="_blank"><li>Info</li></a>
+  			    <a href="contact.html" target="_blank"><li>Contact Us</li></a>
+   			    <a href="https://youtu.be/RxAtuMu_ph4" target="_blank"><li>Show me more</li></a>
+   			 	</ul>
+ 			 </div>
+		</nav>
+	</header>
+
+	<div class="banner">
+		<div class="content">
+			
+		<h2>BLACK WIDOW <span>MARVELS</span>  </h2>
+		<p>29 April 2021</p>
+		
+		<a href="#" class="play" onclick="toggle();">Watch teaser</a>
+
+		<div class="slide"></div>
+		<div class="slide1"></div>
+		<div class="slide2"></div>
+		<div class="slide3"></div>
+
+
+		</div>
+	</div>
+
+	<div class="treaser">
+	<video src="treaser.mp4" controls="true"></video>
+	<img src="close.jpg" class="close" onclick="toggle();">
+	</div>
+
+<script type="text/javascript">
+	function toggle(){
+		var treaser = document.querySelector('.treaser');
+		var video = document.querySelector('video');
+		treaser.classList.toggle('active')
+		video.pause();
+	}
+</script>
+</body>
+</html>

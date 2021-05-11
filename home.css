@@ -1,0 +1,194 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+#Marvelmovies{
+    width: 100%;
+    padding: 70px 0;
+    background:cornsilk;
+}
+.text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.text p{
+    margin: auto;
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+
+
+.text h1{
+    font-size: 30px;
+    font: bold;
+}
+
+
+
+.sp{
+    width: 80%;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    
+}
+.spiderman{
+    flex-basis: 48%; 
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    
+    color:#fff;
+    position: relative;
+}
+.spiderman img{
+    width: 100%;
+    border-radius: 7px;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    
+    opacity: 0;
+    transition: 1s ease;
+
+
+
+}
+.spiderman:hover.overlay{
+    opacity: 1;
+}
+.desc{
+    width: 80%;
+    position: absolute;
+    right: 0;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%);
+    transition: 1s ease;
+}
+hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 60%;
+}
+.desc p{
+    font-size: 14px;
+}
+.spiderman:hover .desc{
+     bottom: 40%;
+     opacity: 1;
+}
+#th{
+   
+    background:cornsilk;
+}
+.Thor{
+    width: 80%;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    
+}
+.thor{
+    flex-basis: 48%; 
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: cornsilk;
+    position: relative;
+}
+.thor img{
+    width: 100%;
+    border-radius: 7px;
+}
+.thor:hover .desc{
+    bottom: 40%;
+    opacity: 1;
+}
+.thor:hover .overlay{
+    opacity: 1;
+}
+.thor:hover .desc{
+    bottom: 40%;
+    opacity: 1;
+}
+#AV{
+    background: cornsilk;
+}
+.Avengers{
+    width: 80%;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    
+}
+.avengers{
+    flex-basis: 48%; 
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color:black;
+    position: relative;
+}
+.avengers img{
+    width: 100%;
+    border-radius: 7px;
+}
+.avengers:hover .desc{
+    bottom: 40%;
+    opacity: 1;
+}
+.avengers:hover .overlay{
+    opacity: 1;
+}
+.avengers:hover .desc{
+    bottom: 40%;
+    opacity: 1;
+}
+#CA{
+    background: cornsilk;
+}
+.Captain{
+    width: 80%;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    
+}
+.captain{
+    flex-basis: 48%; 
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color:cornsilk;
+    position: relative;
+}
+.captain img{
+    width: 100%;
+    border-radius: 7px;
+}
+.captain:hover .desc{
+    bottom: 40%;
+    opacity: 1;
+}
+.captain:hover .overlay{
+    opacity: 1;
+}
+.captain:hover .desc{
+    bottom: 40%;
+    opacity: 1;
+}

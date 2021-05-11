@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+#contact{
+    min-height: 100vh;
+    background: url(2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    background: rgba(20,29,40.0.8);
+    width: 20%;
+    color: #fff;
+    border-radius: 30px;
+}
+.head{
+    text-align: center;
+    padding: 2rem 1rem 1rem;
+    font-size: 2rem;
+
+}
+.name1,
+.email1 {
+    padding: 1rem;
+    text-align: center;
+
+}
+.container label{
+    font-size: 1.5rem;
+}
+.container button{
+    background: linear-gradient(to right,#f64f59,#c471c4,#12c2e9);
+    border: none;
+    color:#fff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.5s ease-in-out;
+    width:100%;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+button:hover {
+    background:
+    linear-gradient(to right,#ec2f4b,#009f);
+}
+.container input{
+    padding:1rem 3rem;
+
+}
+
